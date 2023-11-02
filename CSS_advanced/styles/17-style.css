@@ -43,14 +43,17 @@ a:active {
 }
 
 .section {
+    padding-left: var(--section-padding);
+    padding-right: var(--section-padding);
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+}
+
+.section-header {
     padding-left: var(--section-header-padding);
     padding-right: var(--section-header-padding);
     padding-top: var(--section-header-padding);
     padding-bottom: var(--section-header-padding);
-}
-
-.section-header {
-    text-align: var(--section-header-align)
 }
 
 .section-body {
