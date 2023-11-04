@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
-    --text-color: var(--color-black);
+    --text-color: var(--color-white);
     --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-family-title: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-size-small: 1.2rem;
@@ -194,7 +194,6 @@ ul.row {
     padding: 0.5rem;
 }
 
-[data-section-theme=dark] {
-    color: var(--color-white);
+[data-section-theme="dark"] {
     background-color: var(--color-black);
 }
